@@ -35,7 +35,7 @@ void ChunkServer::tick() {
 			bool smallEnough = true;
 			int64 limit = 1 << 3;
 			for (int j = 0; j < 3; j++) {
-				if (anchorDiff[j] >= limit or anchorDiff[j] < -limit) {
+				if (anchorDiff[j] >= limit || anchorDiff[j] < -limit) {
 					smallEnough = false;
 					break;
 				}

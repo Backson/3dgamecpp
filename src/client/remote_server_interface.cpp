@@ -133,7 +133,7 @@ void RemoteServerInterface::tick() {
 		bool smallEnough = true;
 		int64 limit = 1 << 3;
 		for (int i = 0; i < 3; i++) {
-			if (anchorDiff[i] >= limit or anchorDiff[i] < -limit) {
+			if (anchorDiff[i] >= limit || anchorDiff[i] < -limit) {
 				smallEnough = false;
 				break;
 			}
