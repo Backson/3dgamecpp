@@ -47,7 +47,6 @@
     <ClInclude Include="..\src\shared\block_loader.hpp" />
     <ClInclude Include="..\src\shared\block_manager.hpp" />
     <ClInclude Include="..\src\shared\block_utils.hpp" />
-    <ClInclude Include="..\src\shared\build_config.hpp" />
     <ClInclude Include="..\src\shared\chunk_archive.hpp" />
     <ClInclude Include="..\src\shared\chunk_compression.hpp" />
     <ClInclude Include="..\src\shared\chunk_manager.hpp" />
